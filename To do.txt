@@ -1,0 +1,27 @@
+
+forms
+--
+registration - stud, comp
+
+login-stud, comp., TPO
+homepage
+admin module-report generation, user mgmnt, placement activity module
+
+
+---
+Static pages
+
+selection process 
+placement activity
+edifice
+contact us
+abt us
+
+---reports
+
+student master report(entity wise)
+placed stud
+unplaced stud
+company report
+job report(comp wise)
+

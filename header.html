@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>    </title>
+	<script src="jquery-3.4.1.min.js"></script>
+	<link href="fotorama.css" rel="stylesheet">
+ 	<script src="fotorama.js"></script>
+	
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+	#drp1
+	{
+		transition: 0.5s;	
+		background-color: #0c7c99;
+		color: white;
+	}
+	#drp1:hover
+	{
+		color: black;
+		background-color: white;
+	}
+
+	#drp
+	{	
+		color: white;
+		background-color: #0c7c99;
+
+	}
+	#drp:hover
+	{
+		background-color: white;
+		color: black;
+	}
+</style>
+
+</head>
+
+<body style="font-family: verdana;">
+
+<div style="border-bottom: 5px solid orange;">
+	<nav class="nav navbar-default" style="background-color:#0c7c99; ">
+		<ul class="nav navbar-nav ">		
+			<li><a href="https://www.facebook.com/mcaiicmr/" class="fa fa-facebook" style="font-size:20px;color:white"></a></li>	
+			<li><a class="fa fa-phone" style="font-size:20px;color:white"><font face="verdana" size="2"> &nbsp; 020-27657648 / 27650011</font></a></li>
+
+			<li><a class="fa fa-envelope" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWrRnXfFLcDhtZzCDMqbcQCnJxftlGfSbgQSMknRMHvvHwrDjxQDSRLmBsPqxZspFvnwsbjTB" style="font-size:20px;color:white"><font face="verdana" size="2"> &nbsp; info@iicmr.org</font></a></li>
+		</ul>	
+		<ul class="container-fluid nav navbar-nav navbar-right ">
+      		<li><a   data-target="#user" style="font-size:15px;color:white;"><span class="glyphicon glyphicon-user"></span> User</a></li>
+    	</ul>	
+	</nav>
+</div>
+
+
+<!--Header part-->
+<div style="border-bottom: 5px solid orange;">
+		<nav class="navbar-default text-center" style="font-family: verdana;">
+			<nav class="nav navbar-nav"><br><a href="index.php"><img src="pics/lo1.png" style="margin-left: 10%;" height="100"></a></nav><br>
+			<b>Audyogik Tantra Shikshan Sanstha's ( A.T.S.S. )</b>
+			<h2><span style="color:maroon; font-weight: bold;">I</span><span style="color:#073767">nstitute</span> <span style="color:maroon; font-weight: bold;">O</span><span style="color:#073767">f</span> <span style="color:maroon; font-weight: bold;">I</span><span style="color:#073767">ndustrial</span> 
+				<span style="color:maroon; font-weight: bold;">A</span><span style="color:#073767">nd</span> <span style="color:maroon; font-weight: bold;">C</span><span style="color:#073767">omputer</span> <span style="color:maroon; font-weight: bold;">M</span><span style="color:#073767">anagement</span> <span style="color:maroon; font-weight: bold;">A</span>nd 
+				<span style="color:maroon; font-weight: bold;">R</span><span style="color:#073767">esearch</span></h2>
+				<b>(Approved by AICTE & Affiliated to Savitribai Phule Pune University, Recognized by Gov. of Maharashtra,Accredited by NAAC)</b>	<br><br>		
+		</nav>
+</div>
+
+<!--Menu Bar-->
+
+			
+
+<div class="container row">
+	<div class="modal fade" id="stud" role="dialog">
+	    
+      <!-- Modal content-->
+      	<div class="modal-content col-sm-3 " style="margin-left: 32%;margin-top: 10%;">
+	        <div class="modal-header">
+	        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+	          	<h4 class="modal-title">Student Login</h4>
+	        </div>
+
+		         <div class="modal-body">
+		    		<div class="form-group"> 
+						<form>
+						        Username :<input type="text" class="form-control" placeholder="Enter Username Here"><BR>
+								Password:<input type="password" class="form-control" placeholder="Enter Password Here"><BR>
+								<input type="submit" class="btn btn-success" value="Login">
+								<a href="#"><button style="background-color: transparent;border:none;">Forgot Password ?</button></a>
+								<br><br>
+		  				</form>
+					</div>
+		         </div>
+       	</div>
+	</div>
+</div>
+<!--Login Popup Company-->
+<div class="container row">
+	<div class="modal fade" id="Company" role="dialog">
+	    
+      <!-- Modal content-->
+      	<div class="modal-content col-sm-3 " style="margin-left: 32%;margin-top: 10%;">
+	        <div class="modal-header">
+	        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+	          	<h4 class="modal-title">Company Login</h4>
+	        </div>
+
+		         <div class="modal-body">
+		    		<div class="form-group"> 
+						<form>
+						        Username :<input type="text" class="form-control" placeholder="Enter Username Here"><BR>
+								Password:<input type="password" class="form-control" placeholder="Enter Password Here"><BR>
+								<input type="submit" class="btn btn-success" value="Login">
+								<a href="#"><button style="background-color: transparent;border:none;">Forgot Password ?</button></a>
+								<br><br>
+		  				</form>
+					</div>
+		         </div>
+       	</div>
+	</div>
+</div>
+<!--Login Popup Admin-->
+<div class="container row">
+	<div class="modal fade" id="Administrator" role="dialog">
+	    
+      <!-- Modal content-->
+      	<div class="modal-content col-sm-3 " style="margin-left: 32%;margin-top: 10%;">
+	        <div class="modal-header">
+	        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+	          	<h4 class="modal-title">Administrator Login</h4>
+	        </div>
+
+		         <div class="modal-body">
+		    		<div class="form-group"> 
+						<form action="AdminPanel.php">
+						        Username :<input type="text" class="form-control" placeholder="Enter Username Here"><BR>
+								Password:<input type="password" class="form-control" placeholder="Enter Password Here"><BR>
+								<input type="submit" class="btn btn-success" value="Login">
+								<a href="#"><button style="background-color: transparent;border:none;">Forgot Password ?</button></a>
+								<br><br>
+		  				</form>
+					</div>
+		         </div>
+       	</div>
+	</div>
+</div>
+
+<div style="border-bottom: 5px solid orange;">
+	<nav class="nav navbar-default" style="background-color:#0c7c99;">
+		<ul class="nav navbar-nav" style="">
+			<li class="active" style="margin-left: 2em;margin-right: 2em;padding-top: 7px; color: white;font-family: verdana; font-size: 25px; font-weight: bold;"><span class="glyphicon glyphicon-education" style="font-size: 30px;"></span> IICMR PLACEMENT CELL</li>
+			
+			<li><a href="index.php" style="font-family: verdana;font-size: 17px;" id="drp1"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
+
+			<li class="dropdown">
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-family: verdana;font-size: 17px;" id="drp1">Login<span class="caret"></span></a>
+		        <ul class="dropdown-menu" style="background-color:#0c7c99; font-size: 15px;">
+		          	<li><a href="#" id="drp" data-toggle="modal" data-target="#stud">Student</a></li>
+		          	<li><a href="#" id="drp" data-toggle="modal" data-target="#Administrator">Administrator</a></li>
+		          	<li><a href="#" id="drp" data-toggle="modal" data-target="#Company">Company</a></li>
+		      	</ul>
+		    </li>
+
+		    <li class="dropdown">
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-family: verdana;font-size: 17px;" id="drp1">Registration<span class="caret"></span></a>
+		        <ul class="dropdown-menu" style="background-color:#0c7c99; font-size: 15px;">
+		          <li><a href="Stud_Reg.php" id="drp">Student</a></li>
+		          <li><a href="compRegister.php" id="drp">Company</a></li>
+		      	</ul>
+		    </li>
+
+		    <li><a href="Edifice.php" style="font-family: verdana;font-size: 17px;" id="drp1">Edifice</a></li>
+		    <li><a href="process.php" style="font-family: verdana;font-size: 17px;" id="drp1">Process</a></li>	    
+		</ul>
+	</nav>
+</div>
+
+<!--Closing of Menu Bar-->
+<div class="container-fluid" style="background-color: maroon; color: white;">
+				<marquee>IICMR PLACEMENT CELL which aims at sharpening the skills of individual’s for success in <b>Placement</b></marquee>
+
+			</div>
+
+
+
+
+</body>
+</html>
